@@ -1,0 +1,525 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after {
+    content: '';
+    content: none;
+}
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+body {
+    font-family: lato;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+
+/**************************************
+Phones
+**************************************/
+
+
+/*iPhone 6*/
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 737px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+    .header> h1 {
+        font: 4.5rem lato, Arial;
+    }
+    .header{
+        padding: 60px 30px;
+    }
+    .form {
+        padding: 10px;
+        font: 3.4rem lato, Arial;
+    }
+    #button, .button, .input {
+
+        font: 2rem lato, Arial;
+        margin: 10px;
+    }
+    .input {
+        padding: 5px 10px;
+        width: 500px;
+    }
+    #button, .button {
+        min-width: 200px;
+        padding: 10px 50px;
+    }
+    .results-container {
+        min-height: 55.5vh;
+    }
+    .results {
+        margin: 10px;
+        padding: 15px 15px 20px 15px;
+        overflow: scroll;
+    }
+    .results> h5 {
+        font: 2rem lato, Arial;
+    }
+    .results> p {
+        font: 1.5rem lato, Arial;
+    }
+    .footer-container {
+        padding: 40px 60px;
+    }
+    .footer> a {
+        width: 100px;
+        text-align: center;
+    }
+    .footer-container> h4 {
+        font: 2.6rem lato, Arial;
+        margin-bottom: 40px;
+    }
+    .footer-container> p {
+        font: 2.1rem lato, Arial;
+        margin-top: 40px;
+    }
+
+
+
+
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 737px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .header> h1 {
+        font: 2.5rem lato, Arial;
+    }
+    .header{
+        padding: 30px 15px;
+    }
+    .form {
+        padding: 10px;
+        font: 1.7rem lato, Arial;
+    }
+    #button, .button, .input {
+
+        font: 1.25rem lato, Arial;
+        margin: 10px;
+    }
+    .input {
+        padding: 5px 10px;
+        width: 350px;
+    }
+    #button, .button {
+        min-width: 200px;
+        padding: 5px;
+    }
+    .results-container {
+        min-height: 32vh;
+    }
+    .results {
+        margin: 10px;
+        padding: 15px 15px 20px 15px;
+        overflow: scroll;
+    }
+    .results> h5 {
+        font: 2rem lato, Arial;
+    }
+    .results> p {
+        font: 1.5rem lato, Arial;
+    }
+    #results> a{
+        padding: 5px;
+        width: 30px;
+
+    }
+    .footer> a {
+        width: 100px;
+        text-align: center;
+    }
+    .footer-container {
+        padding: 20px;
+    }
+    .footer-container> h4 {
+        font: 1.7rem lato, Arial;
+        margin-bottom: 25px;
+    }
+    .footer-container> p {
+        font: 1rem lato, Arial;
+        margin-top: 25px;
+    }
+
+
+}
+
+/*iPhone 6+*/
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+
+
+}
+
+/* Landscape */
+
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
+
+
+/**************************************
+ Tablets
+**************************************/
+
+
+/*tablets*/
+
+
+/* Portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+
+
+        .header> h1 {
+            font: 2.9rem lato, Arial;
+        }
+        .header{
+            padding: 30px 15px;
+        }
+        .form {
+            padding: 10px;
+            font: 1.7rem lato, Arial;
+        }
+        #button, .button, .input {
+
+            font: 1.25rem lato, Arial;
+            margin: 10px;
+        }
+        .input {
+            padding: 5px 10px;
+            width: 500px;
+        }
+        #button, .button {
+            min-width: 150px;
+            padding: 6px 15px;
+        }
+        .results-container {
+            min-height: 66vh;
+        }
+        .results {
+            margin: 10px;
+            padding: 15px 15px 20px 15px;
+            overflow: scroll;
+        }
+        .results> h5 {
+            font: 2rem lato, Arial;
+        }
+        .results> p {
+            font: 1.5rem lato, Arial;
+        }
+        .footer-container {
+            padding: 30px 60px 20px 60px;
+        }
+        .footer> a {
+            width: 100px;
+            text-align: center;
+        }
+        .footer-container> h4 {
+            font: 2.3rem lato, Arial;
+            margin-bottom: 22px;
+        }
+        .footer-container> p {
+            font: 1.7rem lato, Arial;
+            margin-top: 22px;
+        }
+
+}
+
+/* Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+    .header> h1 {
+        font: 2.5rem lato, Arial;
+    }
+    .header{
+        padding: 30px 15px;
+    }
+    .form {
+        padding: 10px;
+        font: 1.7rem lato, Arial;
+    }
+    #button, .button, .input {
+
+        font: 1.25rem lato, Arial;
+        margin: 10px;
+    }
+    .input {
+        padding: 5px 10px;
+        width: 350px;
+    }
+    #button, .button {
+        min-width: 150px;
+        padding: 5px;
+    }
+    .results-container {
+        min-height: 52vh;
+    }
+    .results {
+        max-width: 768px;
+        margin: 10px;
+        padding: 15px 15px 20px 15px;
+        overflow: scroll;
+    }
+    .results> h5 {
+        font: 1.7rem lato, Arial;
+    }
+    .results> p {
+        font: 1.1rem lato, Arial;
+    }
+    #results> a{
+        padding: 5px;
+        width: 30px;
+
+    }
+    .footer> a {
+        width: 50px;
+        text-align: center;
+    }
+    .footer-container {
+        padding: 20px;
+    }
+    .footer-container> h4 {
+        font: 1.7rem lato, Arial;
+        margin-bottom: 20px;
+    }
+    .footer-container> p {
+        font: 1.3rem lato, Arial;
+        margin-top: 20px;
+    }
+}
+
+/**************************************
+ General
+**************************************/
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 2400px) and (-webkit-min-device-pixel-ratio: 1) {
+
+
+    /*header*/
+
+    .header {
+        padding: 30px;
+    }
+
+    .header> h1 {
+        font: 2rem lato, Arial;
+    }
+    /*search bar*/
+    .form {
+        padding: 10px;
+        font: 1.3rem lato, Arial;
+    }
+    .form> h4 {
+        margin-bottom: 5px;
+    }
+    .button, .input {
+        padding: 5px 10px;
+        font: 1rem lato, Arial;
+        margin: 10px;
+    }
+    .input {
+        width: 150px;
+    }
+    .button {
+        min-width: 100px;
+    }
+
+    /*result container*/
+    .results-container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        min-height: 40vh;
+    }
+    .results {
+        margin: 10px;
+        padding: 15px 15px 20px 15px;
+    }
+    .results> h5 {
+        font: 1.5rem lato, Arial;
+    }
+    .results> p {
+        font: 1.1rem lato, Arial;
+    }
+    #results {
+        max-width: 960px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 10px;
+        background-color: #ffffff;
+        padding: 20px;
+    }
+    /*footer*/
+    .footer-container {
+        padding: 20px 60px 20px 60px;
+    }
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footer-container> h4 {
+        font: 1.4rem lato, Arial;
+        margin-bottom: 20px;
+    }
+    .footer> a {
+        width: 80px;
+        text-align: center;
+    }
+    .footer-container> p {
+        margin-top: 100px;
+    }
+    /*media queries*/
+    @media (min-width: 580px) {
+        .form {
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+    /*TABLETS*/
+    @media (min-width: 768px) {
+        .header> h1 {
+            font: 2.7rem lato, Arial;
+        }
+        .form> h4 {
+            font-size: 1.8rem;
+        }
+        .input {
+            margin: 0px 30px 0px 30px;
+            width: 200px;
+        }
+    }
+    /*DESKTOPS*/
+    @media (min-width: 1080px) {
+        .header> h1 {
+            font: 3.5rem lato, Arial;
+        }
+        .input {
+            width: 300px;
+            margin: 0px 50px 0px 50px;
+        }
+    }
+}
+
+/**************************************
+ Grid
+**************************************/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.form {
+    color: #ffffff;
+    background-color: #28aad4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.button, .input {
+    border: none;
+    border-radius: none;
+}
+.button:focus {
+    outline: none;
+}
+.input:focus {
+    outline: none;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #14556a;
+}
+.button:hover {
+    background-color: #104454;
+}
+.results-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.results {
+    background-color: #e0e0e0;
+}
+.results> h5, .results> p {
+    color: #104454;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #ffffff;
+    background-color: #999999;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikipedia Top 10</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <!-- Header   -->
+            <div class="header">
+                <h1><a href="https://wikipedia-viewer.herokuapp.com/">The Wikipedia Top Ten</a></h1>
+            </div>
+
+            <div class="form">
+                <h4 class="logo">What are you looking for?</h4>
+                <form id='search-form'>
+                    <input class="input name"id="search-input" type="text" autofocus>
+                    <input class="button "id="button"type="submit" value="Search">
+                </form>
+            </div>
+
+            <!-- Search results -->
+            <div class="results-container">
+                <div id="results"></div>
+
+            </div>
+
+            <!-- footer -->
+
+            <div class="footer-container">
+
+                <h4>Alternative Search Engines</h4>
+                <div class="footer">
+                    <a class="button" href="https://www.wikipedia.com/" target="_blank">Wikipedia</a>
+                    <a class="button" href="https://www.google.com/" target="_blank">Google</a>
+                    <a class="button" href="https://www.bing.com/" target="_blank">Bing</a>
+                    <a class="button" href="https://www.yahoo.com/" target="_blank">Yahoo</a>
+                </div>
+                <p>
+                    &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script>
+                </p>
+            </div>
+
+
+        </div>
+        <!-- javascript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+        <script type="text/javascript" src='js/wikipedia-viewer.js'></script>
+    </body>
+</html>
