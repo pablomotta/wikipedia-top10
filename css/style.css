@@ -43,15 +43,13 @@ body {
     font-family: lato;
     width: 100%;
 }
-a{
+a {
     text-decoration: none;
     color: #ffffff;
 }
-
 .wrapper {
     height: 100vh;
 }
-
 
 /**************************************
 Phones
@@ -67,7 +65,7 @@ Phones
     .header> h1 {
         font: 4.5rem lato, Arial;
     }
-    .header{
+    .header {
         padding: 60px 30px;
     }
     .form {
@@ -75,7 +73,6 @@ Phones
         font: 3.4rem lato, Arial;
     }
     #button, .button, .input {
-
         font: 2rem lato, Arial;
         margin: 10px;
     }
@@ -116,10 +113,6 @@ Phones
         font: 2.1rem lato, Arial;
         margin-top: 40px;
     }
-
-
-
-
 }
 
 /* Landscape */
@@ -128,7 +121,7 @@ Phones
     .header> h1 {
         font: 2.5rem lato, Arial;
     }
-    .header{
+    .header {
         padding: 30px 15px;
     }
     .form {
@@ -136,7 +129,6 @@ Phones
         font: 1.7rem lato, Arial;
     }
     #button, .button, .input {
-
         font: 1.25rem lato, Arial;
         margin: 10px;
     }
@@ -162,10 +154,9 @@ Phones
     .results> p {
         font: 1.5rem lato, Arial;
     }
-    #results> a{
+    #results> a {
         padding: 5px;
         width: 30px;
-
     }
     .footer> a {
         width: 100px;
@@ -182,8 +173,6 @@ Phones
         font: 1rem lato, Arial;
         margin-top: 25px;
     }
-
-
 }
 
 /*iPhone 6+*/
@@ -191,16 +180,11 @@ Phones
 
 /* Portrait */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
-
-
-}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
 
 /* Landscape */
 
-
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {}
-
 
 /**************************************
  Tablets
@@ -213,61 +197,57 @@ Phones
 /* Portrait */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
-
-
-        .header> h1 {
-            font: 2.9rem lato, Arial;
-        }
-        .header{
-            padding: 30px 15px;
-        }
-        .form {
-            padding: 10px;
-            font: 1.7rem lato, Arial;
-        }
-        #button, .button, .input {
-
-            font: 1.25rem lato, Arial;
-            margin: 10px;
-        }
-        .input {
-            padding: 5px 10px;
-            width: 500px;
-        }
-        #button, .button {
-            min-width: 150px;
-            padding: 6px 15px;
-        }
-        .results-container {
-            min-height: 66vh;
-        }
-        .results {
-            margin: 10px;
-            padding: 15px 15px 20px 15px;
-            overflow: scroll;
-        }
-        .results> h5 {
-            font: 2rem lato, Arial;
-        }
-        .results> p {
-            font: 1.5rem lato, Arial;
-        }
-        .footer-container {
-            padding: 30px 60px 20px 60px;
-        }
-        .footer> a {
-            width: 100px;
-            text-align: center;
-        }
-        .footer-container> h4 {
-            font: 2.3rem lato, Arial;
-            margin-bottom: 22px;
-        }
-        .footer-container> p {
-            font: 1.7rem lato, Arial;
-            margin-top: 22px;
-        }
-
+    .header> h1 {
+        font: 2.9rem lato, Arial;
+    }
+    .header {
+        padding: 30px 15px;
+    }
+    .form {
+        padding: 10px;
+        font: 1.7rem lato, Arial;
+    }
+    #button, .button, .input {
+        font: 1.25rem lato, Arial;
+        margin: 10px;
+    }
+    .input {
+        padding: 5px 10px;
+        width: 500px;
+    }
+    #button, .button {
+        min-width: 150px;
+        padding: 6px 15px;
+    }
+    .results-container {
+        min-height: 66vh;
+    }
+    .results {
+        margin: 10px;
+        padding: 15px 15px 20px 15px;
+        overflow: scroll;
+    }
+    .results> h5 {
+        font: 2rem lato, Arial;
+    }
+    .results> p {
+        font: 1.5rem lato, Arial;
+    }
+    .footer-container {
+        padding: 30px 60px 20px 60px;
+    }
+    .footer> a {
+        width: 100px;
+        text-align: center;
+    }
+    .footer-container> h4 {
+        font: 2.3rem lato, Arial;
+        margin-bottom: 22px;
+    }
+    .footer-container> p {
+        font: 1.7rem lato, Arial;
+        margin-top: 22px;
+    }
 }
 
 /* Landscape */
@@ -276,7 +256,7 @@ Phones
     .header> h1 {
         font: 2.5rem lato, Arial;
     }
-    .header{
+    .header {
         padding: 30px 15px;
     }
     .form {
@@ -284,7 +264,6 @@ Phones
         font: 1.7rem lato, Arial;
     }
     #button, .button, .input {
-
         font: 1.25rem lato, Arial;
         margin: 10px;
     }
@@ -311,10 +290,9 @@ Phones
     .results> p {
         font: 1.1rem lato, Arial;
     }
-    #results> a{
+    #results> a {
         padding: 5px;
         width: 30px;
-
     }
     .footer> a {
         width: 50px;
@@ -338,14 +316,10 @@ Phones
 **************************************/
 
 @media screen and (min-device-width: 1200px) and (max-device-width: 2400px) and (-webkit-min-device-pixel-ratio: 1) {
-
-
     /*header*/
-
     .header {
         padding: 30px;
     }
-
     .header> h1 {
         font: 2rem lato, Arial;
     }
@@ -368,7 +342,6 @@ Phones
     .button {
         min-width: 100px;
     }
-
     /*result container*/
     .results-container {
         display: flex;
@@ -462,7 +435,6 @@ Phones
     background-color: #222222;
     color: #ffffff;
 }
-
 .form {
     color: #ffffff;
     background-color: #28aad4;
@@ -472,7 +444,6 @@ Phones
     align-items: baseline;
     flex-wrap: wrap;
 }
-
 .button, .input {
     border: none;
     border-radius: none;
@@ -483,7 +454,6 @@ Phones
 .input:focus {
     outline: none;
 }
-
 .button {
     color: #ffffff;
     background-color: #14556a;
@@ -497,7 +467,6 @@ Phones
     flex-direction: column;
     justify-content: center;
 }
-
 .results {
     background-color: #e0e0e0;
 }
